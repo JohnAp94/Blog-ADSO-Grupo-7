@@ -19,7 +19,29 @@ body {
 }
 
 .button-home-img {
-    max-width: 12em;
-    border-radius: 50%;
+    max-width: 7em;
+    border-radius: 20%;
     box-shadow: 0 0 10px #b8b5b5;
+}
+
+.titulo {
+    max-width: 1000px;
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
+.container {
+    max-width: 1000px;
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
 }
