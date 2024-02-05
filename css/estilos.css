@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button-home {
+    position: fixed;
+    z-index: 10;
+    top: 40px;
+    left: 50px;
+}
+
+.button-home:hover .button-home-img {
+    box-shadow: 0 0 12px #000000;
+}
+
+.button-home-img {
+    max-width: 12em;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #b8b5b5;
+}
