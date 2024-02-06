@@ -5,7 +5,7 @@
 
 body {
     height: 100vh;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: #4158D0;
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 
@@ -13,19 +13,29 @@ body {
 
 .button-home {
     position: fixed;
-    z-index: 10;
-    top: 40px;
+    top: 80px;
     left: 50px;
+    width: 80vw;
+    margin: 0 auto;
 }
 
-.button-home:hover .button-home-img {
-    box-shadow: 0 0 12px #000000;
+.btn {
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
 }
 
-.button-home-img {
-    max-width: 7em;
-    border-radius: 20%;
-    box-shadow: 0 0 10px #b8b5b5;
+.btn:hover {
+    background-position: right center;
 }
 
 .titulo {
@@ -57,8 +67,18 @@ h1 {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.persona {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+.container-principal {
+    max-width: 1000px;
+    flex: 1;
+    margin: auto;
+}
+
+.cont-persona {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    border-radius: 10%;
+    box-shadow: 0 0 10px #b8b5b5;
 }
