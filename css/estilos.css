@@ -4,7 +4,11 @@
 }
 
 body {
+    height: 100vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
 }
 
 .button-home {
@@ -28,20 +32,33 @@ body {
     max-width: 1000px;
     flex: 1;
     margin: 0 auto;
-    display: inherit;
-    justify-content: inherit;
-    align-items: inherit;
-    height: inherit;
-    flex-wrap: inherit;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.integrantes {
+    text-align: center;
+    max-width: 1000px;
+    flex: 1;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .container {
     max-width: 1000px;
     flex: 1;
     margin: 0 auto;
-    display: inherit;
-    justify-content: inherit;
-    align-items: inherit;
-    height: inherit;
-    flex-wrap: inherit;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.persona {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
