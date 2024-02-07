@@ -16,6 +16,32 @@ a {
     color: black;
 }
 
+nav {
+    background-color: #333; /* Color de fondo */
+    padding: 10px; /* Espaciado interno */
+}
+
+nav ul {
+    list-style-type: none; /* Quita los marcadores de lista */
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline; /* Los elementos de lista se muestran en línea */
+    margin-right: 20px; /* Espaciado entre elementos de lista */
+}
+
+nav ul li a {
+    text-decoration: none; /* Quita la decoración de texto */
+    color: #fff; /* Color del texto */
+    font-weight: bold; /* Fuente en negrita */
+}
+
+nav ul li a:hover {
+    color: #ffc107; /* Cambia el color del texto al pasar el ratón */
+}
+
 .button-home {
     position: fixed;
     top: 80px;
@@ -49,9 +75,6 @@ a {
     margin: 0 auto;
     padding-top: 50px;
     padding-bottom: 50px;
-}
-
-h1 {
     text-align: center;
 }
 
@@ -93,4 +116,8 @@ h1 {
 
 .cont-persona:hover {
     background-position: right center;
+}
+
+.descripcion-principal {
+    text-align: center;
 }
