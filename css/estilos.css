@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,9 +8,12 @@
 body {
     height: 100vh;
     font-family: 'Montserrat', sans-serif;
-    background-color: #4158D0;
-    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-image: linear-gradient(to right top, #f7e849, #ffcb36, #ffad30, #ff8f34, #ff703e);
+}
 
+a {
+    text-decoration: none;
+    color: black;
 }
 
 .button-home {
@@ -81,4 +86,11 @@ h1 {
     margin: 50px;
     border-radius: 10%;
     box-shadow: 0 0 10px #b8b5b5;
+    transition: 0.5s;
+    background-size: 200% auto;
+    background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+}
+
+.cont-persona:hover {
+    background-position: right center;
 }
